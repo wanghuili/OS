@@ -1,0 +1,6 @@
+- hosts: localhost
+  become: yes
+  tasks:
+    - name: Install lvm2
+      yum:
+        name: lvm2

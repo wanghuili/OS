@@ -1,0 +1,6 @@
+- hosts: localhost
+  become: yes
+  tasks:
+    - name: Install ebtables
+      yum:
+        name: ebtables

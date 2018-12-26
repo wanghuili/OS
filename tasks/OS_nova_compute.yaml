@@ -1,0 +1,6 @@
+- hosts: localhost
+  become: yes
+  tasks:
+    - name: Install openstack-nova-compute
+      yum:
+        name: openstack-nova-compute

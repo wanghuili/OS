@@ -1,0 +1,11 @@
+---
+
+- import_playbook: tasks/lvm2.yaml
+- import_playbook: tasks/data.yaml
+- import_playbook: tasks/cinder.yaml
+- import_playbook: tasks/targetcli.yaml
+- import_playbook: tasks/py_keystone.yaml
+- import_playbook: tasks/OS_nova_compute.yaml
+- import_playbook: tasks/OS_neutron_lb.yaml
+- import_playbook: tasks/ebtables.yaml
+- import_playbook: tasks/ipset.yaml
